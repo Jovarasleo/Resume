@@ -1,0 +1,132 @@
+.header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 72px;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  z-index: -1;
+}
+.header--light::before{
+background: var(--green);
+}
+.header--dark::before{
+  background: var(--darkGreen);
+}
+.header__info {
+  border: 4px solid var(--black);
+  margin-top: 36px;
+  padding: 44px 114px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dark {
+  border-color: var(--white);
+  color: var(--white);
+}
+.languageInput.dark{
+  background-color: var(--veryDarkGray);
+  box-shadow: inset 0 0 5px 1px #55b3ff ;
+}
+.header__info-name,
+.header__info-title {
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.header__info-name {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header__info-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+  background: var(--black);
+  padding: 0 40px;
+}
+.languageInput{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+  margin-top: 38px;
+  margin-left: 50px;
+  height: 24px;
+  width: 60px;
+  border:none;
+  border-radius: 34px;
+  text-align: center;
+  background-color: var(--gray);
+  box-shadow: inset 0 0 8px 1px rgba(69, 167, 138, 0.897);
+}
+.switch {
+  border-radius: 34px;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 50px;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--gray);
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: inset 0 0 8px 1px rgba(69, 167, 138, 0.897);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  top:4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2f5777;
+  box-shadow: inset 0 0 5px 1px #55b3ff ;
+  box-sizing: border-box;
+}
+
+/* input:hover + .slider {
+  box-shadow: 0 0 5px 1px grey
+} */
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(35px);
+  -ms-transform: translateX(35px);
+  transform: translateX(35px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
