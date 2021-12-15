@@ -9,7 +9,6 @@
 }
 
 .section {
-  display: flex;
   gap: 0 66px;
   margin-bottom: 66px;
 }
@@ -22,10 +21,6 @@
   margin-bottom: 32px;
 }
 
-.job-experience {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
 .job-experience .experience {
   padding: 0 0 0 20px;
@@ -37,12 +32,47 @@
 }
 
 .contacts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer {
+  margin-bottom: 32px;
+}
+@media only screen and (min-width: 800px) {
+  .job-experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+}
+@media only screen and (max-width: 800px) {
+  .job-experience {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .experience{
+    margin: 0 auto;
+  }
+  .job-experience .experience {
+    padding: 0;
+    border-left: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-box:first-child{
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 768px) {
+.section {
+  display: flex;
+}
+.contacts {
   margin: 0px 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
 }
-
-.footer {
-  margin-bottom: 32px;
 }
