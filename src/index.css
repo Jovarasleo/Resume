@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
 :root {
+  --lightGray:#e4e4e4;
   --white: #ffffff;
   --black: #000000;
   --green: #5dbd98b9;
   --gray: #dcdcdc;
-  --yellow: #fcf271;
+  --yellow: #e4db68;
   --red: #eb9f81;
-  --lightGray:#e4e4e4;
   --darkGreen: #43886d9f;
   --darkYellow: #beb75088;
   --darkRed: #a7705abe;
+  --darkGray: #777777;
   --veryDarkGray:rgb(46, 46, 46);
 }
 
@@ -18,7 +20,7 @@
 
 body {
   margin: 0;
-  font-family: monospace;
+  font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--black);
@@ -39,7 +41,7 @@ p,
 a,
 li,
 span {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: medium;
   text-decoration: none;
@@ -69,5 +71,11 @@ span {
   @media only screen and (max-width: 768px) {
   main {
     margin: 20px;
+  }
+  p,
+  a,
+  li,
+  span {
+    font-size: 12px;
   }
 }

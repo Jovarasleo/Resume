@@ -3,11 +3,6 @@
   max-width: 1080px;
   margin: 0 auto;
 }
-
-.content-box.pills-box .pill {
-  margin-bottom: 30px;
-}
-
 .section {
   gap: 0 66px;
   margin-bottom: 66px;
@@ -54,15 +49,23 @@
   }
   .experience{
     margin: 0 auto;
+    
   }
-  .job-experience .experience {
+  .job-experience .experience{
     padding: 0;
-    border-left: none;
+    border:none;
+  }
+  .job-experience .experience:not(:last-child) {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--gray);
   }
 }
 @media only screen and (max-width: 768px) {
   .contact-box:first-child{
     margin-bottom: 25px;
+  }
+  .content-box{
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 768px) {

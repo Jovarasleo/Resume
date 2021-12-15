@@ -1,16 +1,23 @@
 .pill {
-  color: var(--black);
-  background: var(--gray);
-  line-height: 20px;
   padding: 0 10px;
   border-radius: 20px;
   display: inline-block;
   text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
 }
-
+.pill--light{
+  color: var(--veryDarkGray);
+  background: var(--gray);
+}
+.pill--dark{
+  color: var(--white);
+  background: var(--darkGray);
+}
+.pill:not(:last-child) {
+  margin-bottom: 26px;
+}
 .pill--green--light {
   background: var(--green);
 }

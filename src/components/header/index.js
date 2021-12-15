@@ -1,7 +1,7 @@
 import "./index.css";
 import data from "../../data"
 
-function Header({language, setLanguage, theme, setTheme, mode, setMode, checked}) {
+function Header({language, setLanguage, theme, setTheme}) {
   return (
     <header className={`header header--${theme}`}>
       <div className={`header__info ${theme}`}>

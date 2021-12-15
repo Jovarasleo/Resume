@@ -3,6 +3,8 @@
 }
 
 .contact-box__headline {
+  margin: 0 auto;
+  width: 80%;
   background: var(--black);
   text-transform: uppercase;
   color: var(--white);

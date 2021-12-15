@@ -54,9 +54,9 @@ function App() {
           </ContentBox>
           <div className="d-flex flex-2">
             <ContentBox title={personalSkills.title} className="flex-1 pills-box">
-            {personalSkills.pills.map(({skill, level}, i) => (
+            {personalSkills.pills.map(({skill}, i) => (
               <React.Fragment key={i}>
-                <Pill color={level} theme={theme}>{skill}</Pill>
+                <Pill theme={theme}>{skill}</Pill>
               </React.Fragment>
             ))}
             </ContentBox>
