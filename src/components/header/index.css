@@ -12,7 +12,7 @@
   right: 0;
   height: 70px;
   z-index: -1;
-  box-shadow: 0 2px 6px #353535a2 ;
+  box-shadow: 0 2px 6px var(--shadowGray);
 }
 .header--light::before{
   background: var(--green);
@@ -32,7 +32,7 @@
 }
 .languageInput.dark{
   background-color: var(--veryDarkGray);
-  box-shadow: inset 0 0 5px 1px #55b3ff ;
+  box-shadow: inset 0 0 3px 1px var(--blueGlow);
 }
 .header__info-name,
 .header__info-title {
@@ -43,10 +43,12 @@
 .header__info-name {
   font-size: 48px;
   font-weight: 700;
+  letter-spacing:1px;
   margin-bottom: 20px;
 }
 
 .header__info-title {
+  font-family: monospace;
   font-size: 24px;
   font-weight: 700;
   color: var(--white);
@@ -63,7 +65,6 @@
   border-radius: 34px;
   text-align: center;
   background-color: var(--gray);
-  box-shadow: inset 0 0 8px 1px rgba(69, 167, 138, 0.897);
   transition: none;
 }
 .switch {
@@ -89,7 +90,6 @@
   background-color: var(--gray);
   -webkit-transition: .4s;
   transition: .4s;
-  box-shadow: inset 0 0 8px 1px rgba(69, 167, 138, 0.897);
 }
 
 .slider:before {
@@ -105,8 +105,8 @@
 }
 
 input:checked + .slider {
-  background-color: #2f5777;
-  box-shadow: inset 0 0 5px 1px #55b3ff ;
+  background-color: var(--veryDarkGray);
+  box-shadow: inset 0 0 3px 1px var(--blueGlow);
   box-sizing: border-box;
 }
 

@@ -13,8 +13,8 @@ function Header({language, setLanguage, theme, setTheme}) {
         <span className="slider round"></span>
       </label>
       <select className = {`languageInput ${theme}`} value={language} onChange={setLanguage}>
-          <option value="lt">LT</option>
           <option value="en">EN</option>
+          <option value="lt">LT</option>
       </select>
     </header>
   );

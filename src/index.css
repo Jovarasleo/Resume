@@ -12,6 +12,8 @@
   --darkRed: #a7705abe;
   --darkGray: #777777;
   --veryDarkGray:rgb(46, 46, 46);
+  --shadowGray:#353535a2;
+  --blueGlow:#68bbff;
 }
 
 * {
@@ -63,19 +65,21 @@ span {
 .flex-2 {
   flex: 2;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 540px) {
   .d-flex {
     display: flex;
   }
   }
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+p,
+a,
+li,
+span {
+  font-size: 13px;
+}
+}
+@media only screen and (max-width: 1080px) {
   main {
-    margin: 20px;
-  }
-  p,
-  a,
-  li,
-  span {
-    font-size: 12px;
+    margin: 0 20px;
   }
 }

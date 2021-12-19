@@ -14,7 +14,7 @@ import "./App.css";
 function App() {
   
   const body = document.querySelector('body')
-  const [language, setLanguage] = useState("lt")
+  const [language, setLanguage] = useState("en")
   const [theme, setTheme] = useState("light")
   body.className = `body--${theme}`
   function toggle(value){

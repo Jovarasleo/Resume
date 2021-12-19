@@ -4,15 +4,28 @@
 
 .contact-box__headline {
   margin: 0 auto;
-  width: 80%;
+  max-width: 280px;
   background: var(--black);
   text-transform: uppercase;
+  font-family: monospace;
   color: var(--white);
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 12px;
+  line-height: 28px;
 }
 
 .contact-box__link {
   display: block;
+}
+@media only screen and (max-width: 640px) {
+  .contact-box__headline {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width:768px){
+  
+  .contact-box__headline {
+    max-width: 240px;
+  }
 }
