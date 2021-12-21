@@ -1,7 +1,10 @@
 import "./index.css";
-import data from "../../data"
+import data from "../../data";
 
-function Header({language, setLanguage, theme, setTheme}) {
+function Header({ language, setLanguage, theme, setTheme, check }) {
+  if (theme === "light") {
+    check = false;
+  } else check = true;
   return (
     <header className={`header header--${theme}`}>
       <div className={`header__info ${theme}`}>
@@ -9,12 +12,21 @@ function Header({language, setLanguage, theme, setTheme}) {
         <h2 className="header__info-title">{data[language].header.title}</h2>
       </div>
       <label className="switch">
-        <input type="checkbox" value={theme} onChange={setTheme}></input>
+        <input
+          type="checkbox"
+          checked={check}
+          value={theme}
+          onChange={setTheme}
+        ></input>
         <span className="slider round"></span>
       </label>
-      <select className = {`languageInput ${theme}`} value={language} onChange={setLanguage}>
-          <option value="en">EN</option>
-          <option value="lt">LT</option>
+      <select
+        className={`languageInput ${theme}`}
+        value={language}
+        onChange={setLanguage}
+      >
+        <option value="en">EN</option>
+        <option value="lt">LT</option>
       </select>
     </header>
   );

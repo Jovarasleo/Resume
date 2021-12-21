@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
 :root {
-  --lightGray:#e4e4e4;
+  --lightGray: #e4e4e4;
   --white: #ffffff;
   --black: #000000;
   --green: #5dbd98b9;
@@ -11,9 +11,9 @@
   --darkYellow: #beb75088;
   --darkRed: #a7705abe;
   --darkGray: #777777;
-  --veryDarkGray:rgb(46, 46, 46);
-  --shadowGray:#353535a2;
-  --blueGlow:#68bbff;
+  --veryDarkGray: rgb(46, 46, 46);
+  --shadowGray: #353535a2;
+  --blueGlow: #68bbff;
 }
 
 * {
@@ -22,20 +22,25 @@
 
 body {
   margin: 0;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--black);
-
 }
-.body--dark{
+main {
+  margin: 0 20px;
+}
+.body--dark {
   color: var(--gray);
-  background-color: var(--veryDarkGray)
+  background-color: var(--veryDarkGray);
 }
-.body--dark p, .body--dark a, .body--dark li, .body--dark h3{
+.body--dark p,
+.body--dark a,
+.body--dark li,
+.body--dark h3 {
   color: var(--gray);
 }
-.body--dark a img{
+.body--dark a img {
   filter: invert(100%);
 }
 
@@ -69,17 +74,12 @@ span {
   .d-flex {
     display: flex;
   }
-  }
+}
 @media only screen and (max-width: 768px) {
-p,
-a,
-li,
-span {
-  font-size: 13px;
-}
-}
-@media only screen and (max-width: 1080px) {
-  main {
-    margin: 0 20px;
+  p,
+  a,
+  li,
+  span {
+    font-size: 13px;
   }
 }

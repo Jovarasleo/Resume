@@ -16,12 +16,17 @@
   margin-bottom: 32px;
 }
 
-
 .job-experience .experience {
   padding: 0 0 0 20px;
   border-left: 2px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
+.experience li {
+  margin-left: 20px;
+  list-style-position: outside;
+}
 .job-experience .experience:first-child {
   border: none;
 }
@@ -55,10 +60,10 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .contact-box:first-child{
+  .contact-box:first-child {
     margin-bottom: 25px;
   }
-  .content-box{
+  .content-box {
     margin-top: 30px;
   }
 }
@@ -69,13 +74,12 @@
     grid-template-columns: 1fr;
     margin: 0 auto;
   }
-  .experience{
+  .experience {
     margin: 0 auto;
-    
   }
-  .job-experience .experience{
+  .job-experience .experience {
     padding: 0;
-    border:none;
+    border: none;
   }
   .job-experience .experience:not(:last-child) {
     padding-bottom: 10px;
