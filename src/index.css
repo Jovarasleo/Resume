@@ -11,7 +11,7 @@
   --darkYellow: #beb75088;
   --darkRed: #a7705abe;
   --darkGray: #777777;
-  --veryDarkGray: rgb(46, 46, 46);
+  --veryDarkGray: rgb(34, 34, 34);
   --shadowGray: #353535a2;
   --blueGlow: #68bbff;
 }
@@ -43,7 +43,18 @@ main {
 .body--dark a img {
   filter: invert(100%);
 }
-
+.body--dark .header::before {
+  background: var(--darkGreen);
+}
+.body--dark .languageInput {
+  background-color: var(--veryDarkGray);
+  box-shadow: inset 0 0 3px 1px var(--blueGlow);
+  color: white;
+}
+.body--dark .header__info {
+  border-color: var(--white);
+  color: var(--white);
+}
 p,
 a,
 li,
@@ -81,5 +92,10 @@ span {
   li,
   span {
     font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .body--dark .header__info {
+    border: 4px solid var(--gray);
   }
 }

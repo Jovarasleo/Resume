@@ -25,7 +25,7 @@ const data = {
     },
     about: {
       title: "About me",
-      body: "After trying out medical science, business management and sales I finally found my passion in programming. More precisely, frontend development, even though programming (or anything that has something to do with computers) is nothing new to me as I have always loved it. In mid-2021, I finally made up my mind to enroll in frontend studies and have been focusing on frontend development projects since then. These projects do not feel like a job to me but more like a hobby and I am happy to spend countless hours working on them and improving myself.",
+      body: "After trying out medical science, business management and sales I finally found my passion in programming. More precisely, frontend development, even though programming (or anything computer-related) is nothing new to me as I have always loved that field. In mid-2021, I finally made up my mind to enroll in frontend studies and have been focusing on frontend development projects since then. These projects do not feel like a job to me but more like a hobby and I am happy to spend countless hours working on them and improving myself.",
     },
     education: {
       title: "Education",
@@ -46,11 +46,11 @@ const data = {
     personalSkills: {
       title: "Personal skills",
       pills: [
-        { skill: "Teamwork" },
         { skill: "Communication" },
         { skill: "Problem solving" },
-        { skill: "Organization" },
+        { skill: "Critical thinking" },
         { skill: "Analytical thinking" },
+        { skill: "Creativity" },
       ],
     },
     technicalSkills: {
@@ -68,14 +68,13 @@ const data = {
       experience: [
         {
           company: "A.Leonavičienės company",
-          title: "Business partner",
+          title: "Manager",
           period: "2020 - present",
           achievements: [
-            "Cupcake ipsum dolor sit amet I love I love jujubes",
-            "Dessert cake oat cake chocolate bar donut",
-            "Cotton candy sesame snaps apple",
+            "Took initiative to implement a digital workflow",
+            "Upgraded the IT infrastructure of the company.",
           ],
-          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.",
+          body: "Joined family business in late 2020 to help overcome multiple challenges caused by pandemic.",
         },
 
         {
@@ -86,17 +85,17 @@ const data = {
             "Carried out research on upgrading laboratory workflow to increase efficiency.",
             "Became a valuable member of the team.",
           ],
-          body: "Worked as a practitioner in national pathology laboratory. Became a reliable and useful member of the team. Done multiple test for planned and inter operations. Spent hours learning new techniques to evaluate and prepare pathology samples for later trials.",
+          body: "Worked as a practitioner in a national pathology laboratory. Became a trustworthy and valuable member of the team. Did multiple perioperative pathology tests. Spent hours learning new techniques to evaluate and prepare pathology samples for later trials.",
         },
         {
           company: "Centro Poliklinika",
           title: "Clinical laboratory practitioner",
           period: "2017-2018",
           achievements: [
-            "Learnt to do variety of medical tests",
-            "Developt great skills for taking blood samples from pacients",
+            "Learned to do a variety of medical tests.",
+            "Learned how to take blood samples from patients.",
           ],
-          body: "Worked as a practitioner in general clinical trials laboratory for half a year. Had a great learning experience to communicate with patients and got the chance to apply all my theoretical knowledge I've learned in class to practice.",
+          body: "Worked as a practitioner in a general clinical trials laboratory for half a year. Spent most of the time communicating with patients and got the chance to apply all my theoretical knowledge into practice.",
         },
       ],
     },
@@ -150,7 +149,7 @@ const data = {
     },
     about: {
       title: "Apie mane",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue egestas, dapibus justo et, lobortis ex. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue egestas, dapibus justo et, lobortis ex.",
+      body: "Išbandęs sveikatos priežiūros mokslus, verslo valdymą ir prekybą galiausiai atradau save 'front-end' programavime. Nors programavimas ir viskas kas susiję su kompiuteriais man nėra naujiena, nes tai visados buvo ir yra mano aistra. 2021 vasarą galiausiai apsisprendžiau įstoti į 'front-end' studijas ir nuo tada didžiąją savo laiko dalį praleidau mokindamasis ir darydamas programavimo projektus. 'Front-end' projektai man neprimena darbo, o labiau hobį kuriam mielai skiriu visą savo laisvą laiką tobulindamas juos ir save.",
     },
     education: {
       title: "Išsilavinimas",
@@ -167,11 +166,11 @@ const data = {
     personalSkills: {
       title: "Asmeniniai įgūdžiai",
       pills: [
-        { skill: "Darbas komandoje" },
         { skill: "Komunikabilumas" },
         { skill: "Problemų sprendimas" },
-        { skill: "Organizuotumas" },
+        { skill: "Kritinis mąstymas" },
         { skill: "Analitinis mąstymas" },
+        { skill: "Kūrybiškumas" },
       ],
     },
     technicalSkills: {
@@ -181,7 +180,7 @@ const data = {
         { skill: "HTML", level: "green" },
         { skill: "Javascript", level: "yellow" },
         { skill: "Node.js", level: "yellow" },
-        { skill: "React framework", level: "red" },
+        { skill: "React.js", level: "red" },
       ],
     },
     job: {
@@ -189,36 +188,33 @@ const data = {
       experience: [
         {
           company: "A.Leonavičienės Įmonė",
-          title: "Verslo partneris",
+          title: "Vadybininkas",
           period: "2020 - dabar",
           achievements: [
-            "Cupcake ipsum dolor sit amet I love I love jujubes",
-            "Dessert cake oat cake chocolate bar donut",
-            "Cotton candy sesame snaps apple",
+            "Ėmiausi iniciatyvos įmonės skaitmenizavimui.",
+            "Atnaujinau įmonės IT infrastruktūrą.",
           ],
-          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.",
+          body: "2020 metų gale prisijungiau prie šeimos verslo padėti įveikti pandemijos sukeltus sunkumus ir iššūkius.",
         },
         {
           company: "VPC",
           title: "Klinikinės laboratorijos praktikantas",
           period: "2018-2019",
           achievements: [
-            "Cupcake ipsum dolor sit amet I love I love jujubes",
-            "Dessert cake oat cake chocolate bar donut",
-            "Cotton candy sesame snaps apple",
+            "Atlikau vidinį visos laboratorijos tyrimą įvertinant kaip joje patobulinti ir modernizuoti darbo eigą.",
+            "Tapau vertinamu komandos nariu.",
           ],
-          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.",
+          body: "Atlikinėjau laboranto praktiką valsytbiniame patologijos centre. Tapau patikimu ir naudingu komandos nariu. Atlikau šimtus tarpoperacinių ir interoperacinių patologinės medžiagos tyrimų. Praleidau daugybę valandų mokindamasis naujas technikas kaip įvertinti ir paruošti patologinę medžiagą tolimesniems tyrimams.",
         },
         {
           company: "Centro Poliklinika",
           title: "Klinikinės laboratorijos praktikantas",
           period: "2017-2018",
           achievements: [
-            "Cupcake ipsum dolor sit amet I love I love jujubes",
-            "Dessert cake oat cake chocolate bar donut",
-            "Cotton candy sesame snaps apple",
+            "Išmokau atlikti daugybę medicinių tyrimų.",
+            "Įgyjau puikius įgudžius paimti pacientų kraujo mėginius.",
           ],
-          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.",
+          body: "Pusę metų atlikinėjau laboranto praktiką klinikinių tyrimų laboratorijoje Vilniuje - centro poliklinikoje. Turėjau puikią mokomąją patirtį bendraujant su pacientais ir galimybę pritaikyti visas žinias praktikoje kurias įgyjau studijų metu.",
         },
       ],
     },
