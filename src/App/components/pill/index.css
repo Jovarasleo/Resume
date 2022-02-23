@@ -1,0 +1,21 @@
+.pill {
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.pill--light {
+  color: var(--white);
+  background: var(--darkGreen);
+}
+.pill--dark {
+  color: var(--white);
+  background: var(--darkGray);
+}
+.pill:not(:last-child) {
+  margin-bottom: 26px;
+}

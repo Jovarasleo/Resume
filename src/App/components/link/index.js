@@ -1,9 +1,9 @@
-import cx from "classnames";
 import "./index.css";
 
 function Link({ href, children, className, target }) {
+  const newClass = "link".concat(" ", className);
   return (
-    <a className={cx("link", className)} href={href} rel="noreferrer" target={target}>
+    <a className={newClass} href={href} rel="noreferrer" target={target}>
       {children}
     </a>
   );

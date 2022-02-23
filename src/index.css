@@ -1,23 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
 :root {
+  --veryLightGray: #eeeeee;
   --lightGray: #e4e4e4;
   --white: #ffffff;
   --black: #000000;
-  --green: #5dbd98b9;
+  --green: #367968;
   --gray: #dcdcdc;
   --yellow: #e4db68;
   --red: #eb9f81;
-  --darkGreen: #43886d9f;
+  --darkGreen: #367968b2;
   --darkYellow: #beb75088;
   --darkRed: #a7705abe;
   --darkGray: #777777;
   --veryDarkGray: rgb(34, 34, 34);
   --shadowGray: #353535a2;
-  --blueGlow: #68bbff;
-}
-
-* {
-  transition: all 0.3s linear;
+  --blueGlow: #00eeff;
 }
 
 body {
@@ -30,31 +27,7 @@ body {
 main {
   margin: 0 20px;
 }
-.body--dark {
-  color: var(--gray);
-  background-color: var(--veryDarkGray);
-}
-.body--dark p,
-.body--dark a,
-.body--dark li,
-.body--dark h3 {
-  color: var(--gray);
-}
-.body--dark a img {
-  filter: invert(100%);
-}
-.body--dark .header::before {
-  background: var(--darkGreen);
-}
-.body--dark .languageInput {
-  background-color: var(--veryDarkGray);
-  box-shadow: inset 0 0 3px 1px var(--blueGlow);
-  color: white;
-}
-.body--dark .header__info {
-  border-color: var(--white);
-  color: var(--white);
-}
+
 p,
 a,
 li,

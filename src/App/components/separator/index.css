@@ -1,10 +1,10 @@
 .separator {
-  background: var(--gray);
+  background: var(--darkGray);
   height: 4px;
   border: 0;
   position: relative;
   overflow: visible;
-  margin: 12px 0;
+  margin: 18px 0;
 }
 
 .separator--fancy::before {
