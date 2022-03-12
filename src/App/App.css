@@ -32,7 +32,7 @@
 }
 .section {
   gap: 0 66px;
-  margin-bottom: 46px;
+  margin-bottom: 18px;
 }
 .Layout {
   max-width: 1080px;
@@ -43,10 +43,6 @@
 }
 .section .d-flex {
   gap: 0 66px;
-}
-
-.footer .separator {
-  margin-bottom: 32px;
 }
 
 .job-experience .experience {
