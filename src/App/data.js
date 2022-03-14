@@ -32,7 +32,7 @@ const data = {
       schools: [
         {
           name: "CodeAcademy",
-          period: "2021 - 2022",
+          period: "2021 - 2022 (440 hours)",
           degree: "Front-end development",
         },
         {
@@ -162,7 +162,7 @@ const data = {
       schools: [
         {
           name: "CodeAcademy",
-          period: "2021 - 2022",
+          period: "2021 - 2022 (440 val.)",
           degree: "„Front-end“ (vartotojo sąsajos) programavimas",
         },
         {

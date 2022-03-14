@@ -7,7 +7,7 @@
 }
 .app--light {
   color: var(--black);
-  background-color: var(--veryLightGray);
+  background-color: white;
 }
 .app--dark p,
 .app--dark a,
